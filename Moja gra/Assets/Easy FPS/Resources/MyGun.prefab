@@ -284,6 +284,7 @@ Transform:
   m_Children:
   - {fileID: 7247745839599620443}
   - {fileID: 3845139993904348043}
+  - {fileID: 3019743062179063836}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -346,12 +347,17 @@ MonoBehaviour:
   gunPrecision: 0
   shoot_sound_source: {fileID: 5116874162112225929}
   reloadSound_source: {fileID: 5863925126028935381}
-  muzzelFlash: []
+  muzzelFlash:
+  - {fileID: 199458, guid: 51b76f616384d4946bed4ecc9a6c2c3e, type: 3}
+  - {fileID: 199458, guid: 487eef9aff9d0f543836d5af5ab26430, type: 3}
+  - {fileID: 199458, guid: 7b6a7e40bd9ccc0489274923930761c7, type: 3}
+  - {fileID: 199458, guid: 29d86feb88bf925428f9d7de6d4b401f, type: 3}
+  - {fileID: 199458, guid: 4aa4c63f0f9d6a84dbaeed6b9caeca80, type: 3}
   muzzelSpawn: {fileID: 0}
   reloadChangeBulletsTime: 0
   HUD_bullets: {fileID: 0}
-  horizontal_crosshair: {fileID: 0}
-  vertical_crosshair: {fileID: 0}
+  horizontal_crosshair: {fileID: 2800000, guid: e1aa4c90445944348a112c3b7fa4b318, type: 3}
+  vertical_crosshair: {fileID: 2800000, guid: 3f8b669e9880644cbb903f67bbc9f824, type: 3}
   top_pos_crosshair: {x: 0, y: 0}
   bottom_pos_crosshair: {x: 0, y: 0}
   left_pos_crosshair: {x: 0, y: 0}
@@ -363,3 +369,33 @@ MonoBehaviour:
   reloadAnimationName: Player_Reload
   aimingAnimationName: Player_AImpose
   meeleAnimationName: Character_Malee
+--- !u!1 &5301657399804072278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3019743062179063836}
+  m_Layer: 0
+  m_Name: MuzzelSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3019743062179063836
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5301657399804072278}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -83.9, y: 5.8381834, z: 46.497143}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4054142882200558026}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

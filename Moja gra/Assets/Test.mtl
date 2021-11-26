@@ -1,0 +1,5 @@
+newmtl Pipes_set_v1
+map_Kd Pipes_set_v1.tga
+Kd 1 1 1
+d 1
+
