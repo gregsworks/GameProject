@@ -42,7 +42,7 @@ ParticleSystem:
   m_GameObject: {fileID: 1013274939826982}
   serializedVersion: 8
   lengthInSec: 0.5
-  simulationSpeed: 1
+  simulationSpeed: 1.5
   stopAction: 0
   cullingMode: 1
   ringBufferMode: 0
@@ -222,8 +222,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.7830189, g: 0.003693494, b: 0.003693494, a: 1}
-      maxColor: {r: 0.3018868, g: 0.024207907, b: 0.024207907, a: 1}
+      minColor: {r: 0.5283019, g: 0.0074759563, b: 0.0074759563, a: 1}
+      maxColor: {r: 0.5566038, g: 0.034131378, b: 0.034131378, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -920,7 +920,7 @@ ParticleSystem:
     rateOverDistance:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 10
       minScalar: 0
       maxCurve:
         serializedVersion: 2
