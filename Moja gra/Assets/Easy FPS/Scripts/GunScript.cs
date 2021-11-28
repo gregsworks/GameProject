@@ -32,6 +32,9 @@ public class GunScript : MonoBehaviour {
 
 	private PlayerMovementScript pmS;
 
+	[SerializeField] public float damageEnemy = 10f;
+
+
 	/*
 	 * Collection the variables upon awake that we need.
 	 */
@@ -438,6 +441,7 @@ public class GunScript : MonoBehaviour {
 
 				waitTillNextFire = 1;
 				bulletsInTheGun -= 1;
+
 			}
 				
 			else{
@@ -596,4 +600,6 @@ public class GunScript : MonoBehaviour {
 	public string reloadAnimationName = "Player_Reload";
 	public string aimingAnimationName = "Player_AImpose";
 	public string meeleAnimationName = "Character_Malee";
+
+	
 }

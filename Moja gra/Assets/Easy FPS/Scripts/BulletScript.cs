@@ -15,6 +15,7 @@ public class BulletScript : MonoBehaviour {
 	[Tooltip("Put Weapon layer and Player layer to ignore bullet raycast.")]
 	public LayerMask ignoreLayer;
 
+	public float damageEnemy;
 	/*
 	* Uppon bullet creation with this script attatched,
 	* bullet creates a raycast which searches for corresponding tags.
@@ -31,6 +32,12 @@ public class BulletScript : MonoBehaviour {
 				if(hit.transform.tag == "Dummie"){
 					Instantiate(bloodEffect, hit.point, Quaternion.LookRotation(hit.normal));
 					Destroy(gameObject);
+				}
+				if(hit.transform.tag == "Dummie")
+                {
+					//Debug.Log("Hit Enemy");
+					EnemyAI enemyHealthScript = hit.transform.GetComponent<EnemyAI>();
+					enemyHealthScript.DeductHealth(damageEnemy);
 				}
 			}		
 			Destroy(gameObject);

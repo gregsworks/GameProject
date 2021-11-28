@@ -9,6 +9,7 @@ TagManager:
   - BulletSpawn
   - LevelPart
   - Dummie
+  - Enemy
   layers:
   - Default
   - TransparentFX
