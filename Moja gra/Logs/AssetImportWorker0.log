@@ -15,11 +15,11 @@ E:/Projekty szkolne/2021-2022/Silniki gier/Gra/GameProject/Moja gra
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55113
+60047
 Successfully changed project path to: E:/Projekty szkolne/2021-2022/Silniki gier/Gra/GameProject/Moja gra
 E:/Projekty szkolne/2021-2022/Silniki gier/Gra/GameProject/Moja gra
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 103.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 113.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.24f1 (6667702a1e7c)
 [Subsystems] Discovering subsystems at path D:/Programy/Unity/Unity/2021.1.24f1/Editor/Data/Resources/UnitySubsystems
@@ -35,91 +35,91 @@ Initialize mono
 Mono path[0] = 'D:/Programy/Unity/Unity/2021.1.24f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Programy/Unity/Unity/2021.1.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Programy/Unity/Unity/2021.1.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Programy/Unity/Unity/2021.1.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002168 seconds.
+Registered in 0.000966 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 107.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 120.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.946 seconds
+- Completed reload, in  1.010 seconds
 Domain Reload Profiling:
-	ReloadAssembly (946ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (1010ms)
+		BeginReloadAssembly (52ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (427ms)
-			LoadAssemblies (79ms)
+		EndReloadAssembly (464ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (142ms)
+			SetupTypeCache (153ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (222ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (243ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (108ms)
+				RefreshPlugins (120ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (82ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006486 seconds.
+Registered in 0.003317 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Projekty szkolne\2021-2022\Silniki gier\Gra\GameProject\Moja gra\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Projekty szkolne\2021-2022\Silniki gier\Gra\GameProject\Moja gra\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 110.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 115.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.336 seconds
+- Completed reload, in  1.579 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1336ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (1580ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1155ms)
-			LoadAssemblies (114ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1395ms)
+			LoadAssemblies (345ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (322ms)
+			SetupTypeCache (332ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (589ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (579ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (111ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (388ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (371ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4664 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 192.1 MB.
-System memory in use after: 192.3 MB.
+System memory in use before: 191.9 MB.
+System memory in use after: 192.1 MB.
 
 Unloading 116 unused Assets to reduce memory usage. Loaded Objects now: 5113.
-Total: 4.663500 ms (FindLiveObjects: 0.445000 ms CreateObjectMapping: 0.123500 ms MarkObjects: 3.825500 ms  DeleteObjects: 0.267700 ms)
+Total: 4.527300 ms (FindLiveObjects: 0.438700 ms CreateObjectMapping: 0.124900 ms MarkObjects: 3.730300 ms  DeleteObjects: 0.232000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,366 +133,36 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/_ApocalypticVehiclesPack/New Cubemap true_for_gold 1.cubemap
-  artifactKey: Guid(73240d2c60cbff94488f11fe2fdfb43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/New Cubemap true_for_gold 1.cubemap using Guid(73240d2c60cbff94488f11fe2fdfb43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9464daa3ee36421a2915870d31882139') in 0.084599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/_ApocalypticVehiclesPack/police_car.prefab
-  artifactKey: Guid(6daf105ba8424cd41a3860d81b2e26f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/police_car.prefab using Guid(6daf105ba8424cd41a3860d81b2e26f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1329632b89132593c986cb1dc45cbe48') in 0.126395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/_ApocalypticVehiclesPack/MinibusBlue.prefab
-  artifactKey: Guid(da4be5bf2f09d0444bc510ff3749adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/MinibusBlue.prefab using Guid(da4be5bf2f09d0444bc510ff3749adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c49285401e209cfd7db0ebc9da33c41') in 0.025589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/_ApocalypticVehiclesPack/MinibusGreen.prefab
-  artifactKey: Guid(93d2ca29268bb9a48b6194de56af10a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/MinibusGreen.prefab using Guid(93d2ca29268bb9a48b6194de56af10a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35b1cf948e84e57b8a10b3e394171e5') in 0.023235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan.prefab
-  artifactKey: Guid(f9173372f55ed3b4ea869dee6eee2405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan.prefab using Guid(f9173372f55ed3b4ea869dee6eee2405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b599f327e3b87e9a1111e3785d509c0d') in 0.015039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Bus_yellow.prefab
-  artifactKey: Guid(026f97d3122a47241b39f822c25fc36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Bus_yellow.prefab using Guid(026f97d3122a47241b39f822c25fc36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51138780965709ea60399391324339d5') in 0.019558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/_ApocalypticVehiclesPack/SedanSmall.prefab
-  artifactKey: Guid(3e1c2d30513cfd544a05c1ab30e40319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/SedanSmall.prefab using Guid(3e1c2d30513cfd544a05c1ab30e40319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b923d398e6fbba00b6b7896a785a33') in 0.013418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Bus_green.prefab
-  artifactKey: Guid(8dcf1e1a9552d144db500adf60f2b638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Bus_green.prefab using Guid(8dcf1e1a9552d144db500adf60f2b638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c688072cf5176fbb8326fb582dc29f2') in 0.018417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/_ApocalypticVehiclesPack
-  artifactKey: Guid(fc232cfe8563daf40a1d1c5922d85e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack using Guid(fc232cfe8563daf40a1d1c5922d85e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a299d1c404b1831940bbb81a3682b0') in 0.001277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/_ApocalypticVehiclesPack/MinibusBlack.prefab
-  artifactKey: Guid(1605283017715a3408dff708db2923d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/MinibusBlack.prefab using Guid(1605283017715a3408dff708db2923d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c7b7989d47930b43b5f34225ad1b94') in 0.017836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/_ApocalypticVehiclesPack/SedanCreased.prefab
-  artifactKey: Guid(6813dfbc046af774da6fb8ea765bc2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/SedanCreased.prefab using Guid(6813dfbc046af774da6fb8ea765bc2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0073ab48ec984a27d99ee32f134443') in 0.012694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.837494 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Bus
-  artifactKey: Guid(d035835bf57e80d46a95f4f9c703f228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Bus using Guid(d035835bf57e80d46a95f4f9c703f228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9561ebbb8e4e3713e3acc259ec21ff94') in 0.001297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.040638 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Bus/bus.FBX
-  artifactKey: Guid(5d9b1aee6f796b74a8014c9222614ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Bus/bus.FBX using Guid(5d9b1aee6f796b74a8014c9222614ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af31e2dff391cd3e5494fb81f62b57c6') in 0.061456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.127146 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Bus/Materials
-  artifactKey: Guid(a99101c760ff5104e9abe8dc08e49746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Bus/Materials using Guid(a99101c760ff5104e9abe8dc08e49746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2114c50d166f68ac4860ea30e24f3661') in 0.011794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.031462 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Bus/Materials/bus_default_Default_color.mat
-  artifactKey: Guid(5e1e5b59e9fb4d944b735d8919ee7d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Bus/Materials/bus_default_Default_color.mat using Guid(5e1e5b59e9fb4d944b735d8919ee7d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef23503f72fe01090767d07404fe33b6') in 0.016714 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Bus/Materials/yellow_bus_normal.png
-  artifactKey: Guid(a61fc9a7c079f6445bd4cc20cad466d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Bus/Materials/yellow_bus_normal.png using Guid(a61fc9a7c079f6445bd4cc20cad466d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ee51431e2c66b0a70bde85dc582ca1') in 0.024217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Bus/Materials/yellow_bus_gloss.png
-  artifactKey: Guid(5d6a79e2e5332344bb165ab9417d830e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Bus/Materials/yellow_bus_gloss.png using Guid(5d6a79e2e5332344bb165ab9417d830e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654be6636993f8f076d22c70e70dccc2') in 0.009435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Bus/Materials/green_bus_normal.png
-  artifactKey: Guid(0e807c546b139f24aa1dd08e6cc282b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Bus/Materials/green_bus_normal.png using Guid(0e807c546b139f24aa1dd08e6cc282b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbab90248ba59d3fcc141d51e5c22cc0') in 0.011545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Bus/Materials/bus_default_green.mat
-  artifactKey: Guid(ff5ecc4d8bff04c4f850610f691e491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Bus/Materials/bus_default_green.mat using Guid(ff5ecc4d8bff04c4f850610f691e491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a5b5ea40ea015cac8299969c1ea41d') in 0.015741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Bus/Materials/green_bus_diff.png
-  artifactKey: Guid(beeedcf0bccf2aa4ca13fa2aec845c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Bus/Materials/green_bus_diff.png using Guid(beeedcf0bccf2aa4ca13fa2aec845c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b74fc0d3bc16d83df82cb11bac6196') in 0.010423 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Bus/Materials/green_bus_gloss.png
-  artifactKey: Guid(08dc840c4db7b7b48bc93940f0514a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Bus/Materials/green_bus_gloss.png using Guid(08dc840c4db7b7b48bc93940f0514a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372d3e0c297ed5170026873e05f6a1de') in 0.009266 seconds 
+  path: Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_default_Default_color.mat
+  artifactKey: Guid(c0b2c25c63a7c7842adeb76f3929d4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_default_Default_color.mat using Guid(c0b2c25c63a7c7842adeb76f3929d4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d06b8589ce52482d09be85d3a7973dc') in 0.350916 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000197 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Bus/Materials/bus_default_yellow.mat
-  artifactKey: Guid(731251eff47c8f34f811460233871c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Bus/Materials/bus_default_yellow.mat using Guid(731251eff47c8f34f811460233871c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046bb7cecf268f0995400d290599c173') in 0.016600 seconds 
+  path: Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_default_Blue.mat
+  artifactKey: Guid(28d047452bdc9514d96141b8a8d91828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_default_Blue.mat using Guid(28d047452bdc9514d96141b8a8d91828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b314e52126037abe81bc77de33cb5cbd') in 0.139926 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Bus/Materials/yellow_bus_diff.png
-  artifactKey: Guid(b4ddaa855c29d5040be11dd1293ed87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Bus/Materials/yellow_bus_diff.png using Guid(b4ddaa855c29d5040be11dd1293ed87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994b696948830cb5e8e98e667e013702') in 0.010115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 135.805335 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Minibus
-  artifactKey: Guid(1e02ecb85d8c4854982a85bfbc6e0095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Minibus using Guid(1e02ecb85d8c4854982a85bfbc6e0095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19577afce25bbba5579fec127a8bb40a') in 0.001448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.060907 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Minibus/minibus.FBX
-  artifactKey: Guid(004e67dbd2facfd4a881a376d50f8bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Minibus/minibus.FBX using Guid(004e67dbd2facfd4a881a376d50f8bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c9781eba73a5cfbcbb40770e9d83e3') in 0.011195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.465370 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Minibus/Materials
-  artifactKey: Guid(6ea34a98a56a55241ba7106b65a53233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Minibus/Materials using Guid(6ea34a98a56a55241ba7106b65a53233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258329bc025b87487f4a985bfa55d868') in 0.001127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.041134 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_cherny_diff.png
-  artifactKey: Guid(09f9701199713cf4293cbe63851917d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_cherny_diff.png using Guid(09f9701199713cf4293cbe63851917d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccbf9d485cfec9ae6e75b2c980fa551') in 0.008793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_normal.png
-  artifactKey: Guid(991300180fc75f14481d7a9d7c31cb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_normal.png using Guid(991300180fc75f14481d7a9d7c31cb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072c505a58d51689fbd1a3cfec40f4d4') in 0.009905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_goluboy_diff.png
-  artifactKey: Guid(dc12b1dc1a1ac5a488912cb2f92fc074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_goluboy_diff.png using Guid(dc12b1dc1a1ac5a488912cb2f92fc074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47d5a7d2ddec39979885299a1f9a771') in 0.011580 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_goluboy_zeleny_gloss.png
-  artifactKey: Guid(8afd1c61b8c3bc54a8a5bc9a01d5bd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_goluboy_zeleny_gloss.png using Guid(8afd1c61b8c3bc54a8a5bc9a01d5bd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee5b19429e62171727cc6a8d35a1e00') in 0.008159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_zeleny_diff.png
-  artifactKey: Guid(d04f958fab0418b428c09eebd96a3bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_zeleny_diff.png using Guid(d04f958fab0418b428c09eebd96a3bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7696b8fd5a6549b75c6fcd9a998a4b2') in 0.013374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_cherny_gloss.png
-  artifactKey: Guid(7dc6f2d8ca8a4864181124e23a261fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_cherny_gloss.png using Guid(7dc6f2d8ca8a4864181124e23a261fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbbfef1eceec3b761afccf4e5a23a58') in 0.009904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_default_blck.mat
-  artifactKey: Guid(8584b95942a1cda42aa04e3348a18426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_default_blck.mat using Guid(8584b95942a1cda42aa04e3348a18426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3191ec97ce2c4d5ea32d13fcb79a1cd') in 0.017516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_green.mat
-  artifactKey: Guid(6134baf1faca3bf41982eb1b0db347f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_green.mat using Guid(6134baf1faca3bf41982eb1b0db347f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3018f513b4cae5794982b951eb9ec5a4') in 0.014812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_default_Default_color.mat
-  artifactKey: Guid(3c4b14311a49e1c4da5a84eef1e1881c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_default_Default_color.mat using Guid(3c4b14311a49e1c4da5a84eef1e1881c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871af3a87613b5d590fd495408ee5dfc') in 0.006412 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_default_blue.mat
-  artifactKey: Guid(706a8054e28692e4789723cf6cee284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Minibus/Materials/minibus_default_blue.mat using Guid(706a8054e28692e4789723cf6cee284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0398e61c7f28ef38a3528c550d018f') in 0.017033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 567.128356 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan
-  artifactKey: Guid(902ce576e037976488bc9d58a1b283c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan using Guid(902ce576e037976488bc9d58a1b283c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1bb1224a48217cf40d1cd0ee82c1c4d') in 0.001365 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.020275 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Sedan2.FBX
-  artifactKey: Guid(4a47e5971bbaf5346b99987bf9d7668b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Sedan2.FBX using Guid(4a47e5971bbaf5346b99987bf9d7668b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26417553115c2c2a8ccb00405dc537b0') in 0.016136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/sidan.FBX
-  artifactKey: Guid(dadfa73e2d58c0547bcb9f96c0001488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/sidan.FBX using Guid(dadfa73e2d58c0547bcb9f96c0001488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57889e7496e52e46e2bb312459c1611') in 0.026056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Sedan_creased.FBX
-  artifactKey: Guid(5588aabaad5ff184a87f4ce213fe1053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Sedan_creased.FBX using Guid(5588aabaad5ff184a87f4ce213fe1053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b5055e99bfb6920b16de98b869ec9d') in 0.022169 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.435745 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Policay
-  artifactKey: Guid(73f076105b5b53f4ea614e2ffe9261fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Policay using Guid(73f076105b5b53f4ea614e2ffe9261fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd36cc3540f5ba211fefcd1eeb85940') in 0.001511 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.041177 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Policay/police_flasher.FBX
-  artifactKey: Guid(1cbc3ab1ea394a440b4788084cabf82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Policay/police_flasher.FBX using Guid(1cbc3ab1ea394a440b4788084cabf82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb20a3eac3d87e440c699f18ecd7140d') in 0.008622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.425078 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Policay/Materials
-  artifactKey: Guid(e43165d996b748c44b90894aaf7f3827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Policay/Materials using Guid(e43165d996b748c44b90894aaf7f3827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a868adad28a7a03c7563fd0db37eef') in 0.001123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.125543 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Policay/Materials/police_flasher_diff.png
-  artifactKey: Guid(f8aaf3093fdac2c498fdc29839fcdb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Policay/Materials/police_flasher_diff.png using Guid(f8aaf3093fdac2c498fdc29839fcdb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ec4475af4fc2a19efc4a29f250366b') in 0.006037 seconds 
+  Time since last request: 0.000161 seconds.
+  path: Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_default_Default_Red.mat
+  artifactKey: Guid(7cdbe7b43300e0f4984264a202b41336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_default_Default_Red.mat using Guid(7cdbe7b43300e0f4984264a202b41336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c940861abd0cd32244b5e0472afcb81') in 0.130951 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000199 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Policay/Materials/police_flasher_gloss.png
-  artifactKey: Guid(7684b352c1e26b84abf68413d2e2960f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Policay/Materials/police_flasher_gloss.png using Guid(7684b352c1e26b84abf68413d2e2960f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e1f760602417dd6cfc4ae0bcebd292') in 0.005407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.727600 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Materials
-  artifactKey: Guid(d9499eafda02efc42b9464a0732703aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Materials using Guid(d9499eafda02efc42b9464a0732703aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb872d3452e25dc97b942ca6662f5ec') in 0.001187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.037735 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Materials/cherny_sidan.png
-  artifactKey: Guid(8c56afea32b5a6a45867c4a9e0428023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Materials/cherny_sidan.png using Guid(8c56afea32b5a6a45867c4a9e0428023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eabfcc9444188a2782c5820e77e8a55') in 0.008868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_normal.png
-  artifactKey: Guid(90877ccaee9426241864d724cb54c3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_normal.png using Guid(90877ccaee9426241864d724cb54c3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebfdf6a99e01f614155b945e9724472') in 0.021151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_diff.png
-  artifactKey: Guid(42eef5756c3ee1c42a209866f7aabb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_diff.png using Guid(42eef5756c3ee1c42a209866f7aabb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536674a6cc556ff79b8f9e94e0d8dcbc') in 0.020720 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Materials/police_car_diff.png
-  artifactKey: Guid(5cfe9a816ae939d41a5b0270ac77a9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Materials/police_car_diff.png using Guid(5cfe9a816ae939d41a5b0270ac77a9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc375e8a1f871dbc928f0d114ff0053') in 0.014623 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_Police.mat
-  artifactKey: Guid(200149ec9f2c264479b03ff336b4c2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_Police.mat using Guid(200149ec9f2c264479b03ff336b4c2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1794cbde07a172c83d549c0d78442057') in 0.015793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Materials/krasny_sidan_diff.png
-  artifactKey: Guid(702d04a546273454f8332a03484ca1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Materials/krasny_sidan_diff.png using Guid(702d04a546273454f8332a03484ca1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ebaf4e1f4c0fb7b1e9e45c115ed936') in 0.014494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_default_Default_color.mat
-  artifactKey: Guid(c0b2c25c63a7c7842adeb76f3929d4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_default_Default_color.mat using Guid(c0b2c25c63a7c7842adeb76f3929d4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aace3ff3b607c2aa5c9e240fa6741a2') in 0.013881 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Materials/siniy_sidan_diff.png
-  artifactKey: Guid(69efbba4e8443a34c853d311bab457ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Materials/siniy_sidan_diff.png using Guid(69efbba4e8443a34c853d311bab457ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a712fe51326336200c00f9786798b2') in 0.014759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_default_Blue.mat
-  artifactKey: Guid(28d047452bdc9514d96141b8a8d91828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_default_Blue.mat using Guid(28d047452bdc9514d96141b8a8d91828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a42ec12282a422659669564aec849de') in 0.013543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_default_Default_Red.mat
-  artifactKey: Guid(7cdbe7b43300e0f4984264a202b41336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_default_Default_Red.mat using Guid(7cdbe7b43300e0f4984264a202b41336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5499876943abd1e4cb797c0d0083e34d') in 0.018395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_gloss.png
-  artifactKey: Guid(1c83508b7588eaa48af9e8a0f4be5f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_gloss.png using Guid(1c83508b7588eaa48af9e8a0f4be5f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba06300618bc3306639316ca5d72970a') in 0.007445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
   path: Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_default_Default_black.mat
   artifactKey: Guid(97e32fe6caa37cc4cace710038ec6338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_default_Default_black.mat using Guid(97e32fe6caa37cc4cace710038ec6338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52b9e3293192da483a62dd0dabf7400') in 0.009852 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/_ApocalypticVehiclesPack/Sedan/Materials/siniy_sidan_gloss.png
-  artifactKey: Guid(106d8d892c628434587f0f1d621aeb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ApocalypticVehiclesPack/Sedan/Materials/siniy_sidan_gloss.png using Guid(106d8d892c628434587f0f1d621aeb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa34169d2ec9bfe139fe679233251a7') in 0.005937 seconds 
+Start importing Assets/_ApocalypticVehiclesPack/Sedan/Materials/sidan_default_Default_black.mat using Guid(97e32fe6caa37cc4cace710038ec6338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a93c8fe142102f880f19bfab92c1531') in 0.151475 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003352 seconds.
+Registered in 0.004559 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Projekty szkolne\2021-2022\Silniki gier\Gra\GameProject\Moja gra\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Projekty szkolne\2021-2022\Silniki gier\Gra\GameProject\Moja gra\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -504,243 +174,42 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.061 seconds
+- Completed reload, in  1.051 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1062ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (1051ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (882ms)
-			LoadAssemblies (76ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (862ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (314ms)
+			SetupTypeCache (328ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (270ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (287ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (200ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (214ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4535 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 291.6 MB.
-System memory in use after: 291.9 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 5551.
-Total: 4.016500 ms (FindLiveObjects: 0.485800 ms CreateObjectMapping: 0.122900 ms MarkObjects: 3.388600 ms  DeleteObjects: 0.018200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003237 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Projekty szkolne\2021-2022\Silniki gier\Gra\GameProject\Moja gra\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Projekty szkolne\2021-2022\Silniki gier\Gra\GameProject\Moja gra\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.017 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1017ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (846ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (321ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (278ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (209ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4512 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 291.0 MB.
-System memory in use after: 291.2 MB.
+System memory in use before: 187.8 MB.
+System memory in use after: 188.1 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 5553.
-Total: 4.365500 ms (FindLiveObjects: 0.504700 ms CreateObjectMapping: 0.117400 ms MarkObjects: 3.715700 ms  DeleteObjects: 0.026500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003409 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Projekty szkolne\2021-2022\Silniki gier\Gra\GameProject\Moja gra\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Projekty szkolne\2021-2022\Silniki gier\Gra\GameProject\Moja gra\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.073 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1074ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (914ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (345ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (304ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (224ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4512 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 290.9 MB.
-System memory in use after: 291.2 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 5555.
-Total: 4.383100 ms (FindLiveObjects: 0.550700 ms CreateObjectMapping: 0.129000 ms MarkObjects: 3.680400 ms  DeleteObjects: 0.021700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003258 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Projekty szkolne\2021-2022\Silniki gier\Gra\GameProject\Moja gra\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Projekty szkolne\2021-2022\Silniki gier\Gra\GameProject\Moja gra\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.035 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1036ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (861ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (279ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (208ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4512 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 291.0 MB.
-System memory in use after: 291.3 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 5557.
-Total: 4.796200 ms (FindLiveObjects: 0.478600 ms CreateObjectMapping: 0.128500 ms MarkObjects: 4.164300 ms  DeleteObjects: 0.023300 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 5193.
+Total: 4.217300 ms (FindLiveObjects: 0.463700 ms CreateObjectMapping: 0.121600 ms MarkObjects: 3.608400 ms  DeleteObjects: 0.021900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -754,294 +223,26 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 738.224247 seconds.
-  path: Assets/Easy FPS/Resources/MyGun (2).prefab
-  artifactKey: Guid(ba09cc020e41afb41b8fe7a79d37a763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy FPS/Resources/MyGun (2).prefab using Guid(ba09cc020e41afb41b8fe7a79d37a763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93dc8da4bb98cd22416bc2fdc60b89af') in 0.228090 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004694 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Projekty szkolne\2021-2022\Silniki gier\Gra\GameProject\Moja gra\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Projekty szkolne\2021-2022\Silniki gier\Gra\GameProject\Moja gra\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.020 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1020ms)
-		BeginReloadAssembly (130ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (841ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (282ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (209ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4512 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 302.5 MB.
-System memory in use after: 303.0 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 5597.
-Total: 4.288600 ms (FindLiveObjects: 0.516100 ms CreateObjectMapping: 0.136900 ms MarkObjects: 3.611700 ms  DeleteObjects: 0.022900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 744.342337 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/BarrelGroup.prefab
+  artifactKey: Guid(c8b22aa40df96f648924a9384cf87408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/BarrelGroup.prefab using Guid(c8b22aa40df96f648924a9384cf87408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b27edc663b07452f9fc2a1cebc3a0dd') in 0.154569 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.632330 seconds.
-  path: Assets/Easy FPS/Resources/MyGun (2).prefab
-  artifactKey: Guid(ba09cc020e41afb41b8fe7a79d37a763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy FPS/Resources/MyGun (2).prefab using Guid(ba09cc020e41afb41b8fe7a79d37a763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afc1bb66d9ee87819e926acad68fb00') in 0.185979 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004072 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Projekty szkolne\2021-2022\Silniki gier\Gra\GameProject\Moja gra\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Projekty szkolne\2021-2022\Silniki gier\Gra\GameProject\Moja gra\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.131 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1131ms)
-		BeginReloadAssembly (137ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (941ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (353ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (312ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (231ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4512 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 302.8 MB.
-System memory in use after: 303.2 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 5635.
-Total: 5.458400 ms (FindLiveObjects: 0.647400 ms CreateObjectMapping: 0.480000 ms MarkObjects: 4.306700 ms  DeleteObjects: 0.022800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 20.531189 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/BarrelGroup.prefab
+  artifactKey: Guid(c8b22aa40df96f648924a9384cf87408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/BarrelGroup.prefab using Guid(c8b22aa40df96f648924a9384cf87408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a35d7a21c7e49b665e1b12a0733de1d') in 0.030891 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.924580 seconds.
-  path: Assets/Easy FPS/Resources/MyGun (2).prefab
-  artifactKey: Guid(ba09cc020e41afb41b8fe7a79d37a763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy FPS/Resources/MyGun (2).prefab using Guid(ba09cc020e41afb41b8fe7a79d37a763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0edc31633ef5d26ad77080a95439ac0') in 0.182687 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003165 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Projekty szkolne\2021-2022\Silniki gier\Gra\GameProject\Moja gra\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Projekty szkolne\2021-2022\Silniki gier\Gra\GameProject\Moja gra\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.006 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1006ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (834ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (311ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (279ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (210ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4512 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 302.8 MB.
-System memory in use after: 303.3 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 5673.
-Total: 4.300500 ms (FindLiveObjects: 0.519600 ms CreateObjectMapping: 0.131800 ms MarkObjects: 3.628700 ms  DeleteObjects: 0.019500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003263 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Projekty szkolne\2021-2022\Silniki gier\Gra\GameProject\Moja gra\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Projekty szkolne\2021-2022\Silniki gier\Gra\GameProject\Moja gra\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.097 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1098ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (925ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (346ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (301ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (226ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (27ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4512 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 302.8 MB.
-System memory in use after: 303.3 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 5675.
-Total: 6.971800 ms (FindLiveObjects: 0.652300 ms CreateObjectMapping: 0.149100 ms MarkObjects: 6.142000 ms  DeleteObjects: 0.027200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 3.170808 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/BarrelGroup.prefab
+  artifactKey: Guid(c8b22aa40df96f648924a9384cf87408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/BarrelGroup.prefab using Guid(c8b22aa40df96f648924a9384cf87408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c427c769dc352896e439a91917176733') in 0.011335 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 95.964877 seconds.
-  path: Assets/Easy FPS/Resources/MyGun (2).prefab
-  artifactKey: Guid(ba09cc020e41afb41b8fe7a79d37a763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy FPS/Resources/MyGun (2).prefab using Guid(ba09cc020e41afb41b8fe7a79d37a763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c096d5cd66c10b1b3736b40417e94ee6') in 0.173925 seconds 
+  Time since last request: 1.388610 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/BarrelGroup.prefab
+  artifactKey: Guid(c8b22aa40df96f648924a9384cf87408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/BarrelGroup.prefab using Guid(c8b22aa40df96f648924a9384cf87408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1b04a2e0b6e2719a22b8ae25048b59') in 0.012231 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
