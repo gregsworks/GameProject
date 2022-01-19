@@ -18,6 +18,8 @@ public class EnemyAI : MonoBehaviour
 
     public AIState aiState = AIState.idle;
 
+    public int DeadCount;
+
     [SerializeField] private Animator myAnimationController;
 
 
@@ -35,6 +37,7 @@ public class EnemyAI : MonoBehaviour
         if (enemyHealth <= 0)
         {
             EnemyDead();
+            //DeadCount.instance.EnemyKill();
         }
 
 
@@ -45,6 +48,7 @@ public class EnemyAI : MonoBehaviour
         myAnimationController.SetBool("isDead", true);
         StartCoroutine(Dead());
     }
+
     IEnumerator Think()
     {
         while(true)
@@ -90,5 +94,7 @@ public class EnemyAI : MonoBehaviour
     {
         yield return new WaitForSeconds(3f);
         Destroy(gameObject);
+        FindObjectOfType<DeadCounter>().EnemyKill();
+        Debug.Log("DEAD");
     }
 }
