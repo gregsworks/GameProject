@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DeadCounter : MonoBehaviour
 {
@@ -15,10 +16,14 @@ public class DeadCounter : MonoBehaviour
 
     void Update()
     {
-        if (DeadCount == 2)
+        if (DeadCount == 10)
         {
             myAnimationController.SetBool("isGateOpened", true);
         }
 
+        if (DeadCount == 20)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+        }
     }
 }
