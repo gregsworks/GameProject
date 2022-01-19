@@ -23,6 +23,7 @@ public class DeadCounter : MonoBehaviour
 
         if (DeadCount == 20)
         {
+            FindObjectOfType<MouseLookScript>().CursorUnlock();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
         }
     }

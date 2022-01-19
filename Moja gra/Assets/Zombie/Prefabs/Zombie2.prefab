@@ -511,7 +511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   distanceThreshhold: 100
-  enemyHealth: 100
+  enemyHealth: 10
   aiState: 0
   DeadCount: 0
   myAnimationController: {fileID: 7537417665459280382}

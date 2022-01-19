@@ -8,7 +8,7 @@ public class EnemyAI : MonoBehaviour
     //navmesh metoda
     NavMeshAgent nm;
     //metoda dziêki której AI obiera swój cel
-    public Transform target;
+    Transform target;
     //dystans od celu
     public float distanceThreshhold = 10f;
     //zdrowie enemy
@@ -20,13 +20,15 @@ public class EnemyAI : MonoBehaviour
 
     public int DeadCount;
 
-    [SerializeField] private Animator myAnimationController;
+    Animator myAnimationController;
 
 
     // Start is called before the first frame update
     void Start()
     {
         nm = GetComponent<NavMeshAgent>();
+        myAnimationController = GetComponent<Animator>();
+        target = GameObject.FindGameObjectWithTag("Player").transform;
         StartCoroutine(Think());
     }
 
